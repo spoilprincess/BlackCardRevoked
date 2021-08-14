@@ -14,7 +14,7 @@ public class Player {
     }
 
     //Get player score
-    public double getScore(){
+    public int getScore(){
         return score;
     }
 

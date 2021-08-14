@@ -77,7 +77,6 @@ public class BlackCardRevoked
                         MAJORITY WINS:\s
                         Determined by the answer selected by the majority of players\s
                         (4 Players, 3 say 'A' then 'A' wins).\s
-
                         If there is a tie, the game randomly makes the call on which\s
                         answer wins.""".indent(1));
                 System.out.println("""
@@ -148,59 +147,473 @@ public class BlackCardRevoked
                         """;
 
                 String q6 = """
-                        You witness a fight. What do you do next?(a)Call the Police
-                        (b)Film it with your camera.
-                        (c)Break it up
-                        (d)Yell...
+                        After you stop and drop, what should you do next?
+                        (a)Roll
+                        (b)Put your hands up
+                        (c)Shut em' down, open up shop
+                        (d)Hand over your license and registration
                         """;
 
                 String q7 = """
-                        Who has the best biscuit?(a)Popeye's
-                        (b)Red Lobster
-                        (c)KFC
-                        (d)Churches
+                        What might momma tell you before going into any store?
+                        (a)Don't touch nothin'
+                        (b)Don't ask for nothin'
+                        (c)Don't look at nothin'
+                        (d)All of the above
                         """;
 
                 String q8 = """
-                        How long should a woman tolerate her man's successful rap career?(a)'til death do them part
-                        (b)'til they have kids
-                        (c)'till bill collectors start calling
-                        (d)'til he has a side baby
+                        What's the most liable to get you cussed out at the cookout?
+                        (a)Mess up the potato salad
+                        (b)Renege during spades
+                        (c)Don't bring anything
+                        (d)Walk in and not speak
                         """;
 
                 String q9 = """
-                        You know an older black couple is in love when they?(a)wear matching outfits
-                        (b)go out to line dance
-                        (c)make it more than 30 years
-                        (d)sleep in the same bedroom
+                        What does Beyonce carry in her bag?
+                        (a)A bat
+                        (b)Pepper Spray
+                        (c)A slap for Jay-Z
+                        (d)Hot Sauce
                         """;
 
+                String q10 = """
+                        Who claims they had the greatest comeback?
+                        (a)Sza
+                        (b)Rihanna
+                        (c)Soulja Boy
+                        (d)Tyga
+                        """;
+
+                String q11 = """
+                        What does Beyonce carry in her bag?
+                        (a)A bat
+                        (b)Pepper Spray
+                        (c)A slap for Jay-Z
+                        (d)Hot Sauce
+                        """;
+
+                String q12 = """
+                        What's one stereotypical thing that we secretly love?
+                        (a)Strawberry Lemonade
+                        (b)Grape Drink
+                        (c)Fried Chicken
+                        (d)Diabetes
+                        """;
+
+                String q13 = """
+                        What does Beyonce carry in her bag?
+                        (a)A bat
+                        (b)Pepper Spray
+                        (c)A slap for Jay-Z
+                        (d)Hot Sauce
+                        """;
+
+                String q14 = """
+                        What does it mean if your ear keeps itching?
+                        (a)You need to wash
+                        (b)Somebody is talking about you
+                        (c)You need to see a doctor
+                        (d)You're about to fall in love
+                        """;
+
+                String q15 = """
+                        Which city was MLK Jr. killed?
+                        (a)Memphis, TN
+                        (b)Atlanta, GA
+                        (c)Washington, DC
+                        (d)Birmingham, AL
+                        """;
+
+                String q16 = """
+                        In what year did Cash Money records take over?
+                        (a)2001 - 2002
+                        (b)1999 - 2000
+                        (c)1997 - 1998
+                        (d)2004 - 2005
+                        """;
+
+                String q17 = """
+                        What does the word THOT mean?
+                        (a)The Hoes of Tomorrow
+                        (b)Temporary Hoe On Time
+                        (c)That Hoe Over There
+                        (d)It doesn't stand for anything
+                        """;
+
+                String q18 = """
+                        What University did FLOTUS Michelle Obama attend for Undergrad?
+                        (a)Howard
+                        (b)Yale
+                        (c)University of Chicago
+                        (d)Princeton
+                        """;
+
+                String q19 = """
+                        Who played Ricky in Boyz in the Hood?
+                        (a)Morris Chestnut
+                        (b)Ice Cube
+                        (c)Tupac
+                        (d)Cuba Gooding Jr.
+                        """;
+
+                String q20 = """
+                        He need a slim fine woman with what?
+                        (a)A car
+                        (b)Some twerk with her
+                        (c)Money
+                        (d)Good Credit
+                        """;
+
+                String q21 = """
+                        If you mix negro and creole, what do you get?
+                        (a)A Bad Chick
+                        (b)Hot Sauce in a Bag
+                        (c)A Good Ass Halftime
+                        (d)A Texas Bamma
+                        """;
+
+                String q22 = """
+                        All my life I had to fight?
+                        (a)"but I'll kill em dead befo Harpo beat me!"
+                        (b)"and so I called the police"
+                        (c)"for the coins"
+                        (d)"PERIODT"
+                        """;
+
+                String q23 = """
+                        A Scrub is a ....?
+                        (a)A Cleaning Device
+                        (b)A Guy That Can't Get No Love From Me
+                        (c)An Outfit Worn by Doctors
+                        (d)A Beauty Product
+                        """;
+
+                String q24 = """
+                        How many fights did the Fresh Prince get into before \s
+                        his mom got scared?\s
+                        (a)1
+                        (b)5
+                        (c)2
+                        (d)3
+                        """;
+
+                String q25 = """
+                        What is something your momma told you to do hat she can do herself?
+                        (a)Take the chicken out
+                        (b)Turn off the light
+                        (c)Watch her kids
+                        (d)Go to the store
+                        """;
+
+                String q26 = """
+                        Lil Duval said it best!
+                        (a)Living my best life
+                        (b)Get it Right
+                        (c)Girls need love to
+                        (d)I said what I said
+                        """;
+
+                String q27 = """
+                        What Amendment abolished slavery?
+                        (a)9th
+                        (b)10th
+                        (c)13th
+                        (d)14th
+                        """;
+                String q28 = """
+                        Who became the first black woman millionaire\s
+                        and invented hair care products for black women?\s
+                        (a)Madame C.J. Walker
+                        (b)Maya Angelou
+                        (c)Rosa Parks
+                        (d)Dr. Carter G. Woodson
+                        """;
+
+                String q29 = """
+                        Which historically black sorority was founded first?
+                        (a)Delta Sigma Theta
+                        (b)Zeta Phi Beta
+                        (c)Alpha Kappa Alpha
+                        (d)Sigma Gamma Rho
+                        """;
+
+                String q30 = """
+                        What does it mean if she dreamt of fish last night?
+                        (a)bad luck
+                        (b)somebody pregnant
+                        (c)somebody gettin married
+                        (d)money
+                        """;
+
+                String q31 = """
+                        Which character from Cooley High was a regular cast \s
+                        member on a Different World??\s
+                        (a)Tyrone
+                        (b)Cochise
+                        (c)Pooter
+                        (d)Preach
+                        """;
+
+                String q32 = """
+                        Before he was a member of the Nation of Islam, what was Malcolm X called?
+                        (a)Young Slim
+                        (b)Little Red
+                        (c)Brotha Harlem
+                        (d)Detroit Red
+                        """;
+
+                String q33 = """
+                        This person was the first person to invent a clock in the United States that rung on the hour?
+                        (a)Benjamin Banneker
+                        (b)W.E.B. DuBois
+                        (c)Denzel Washington
+                        (d)Barack Obama
+                        """;
+
+                String q34 = """
+                        First African-American to win Miss America?
+                        (a)Tyra Banks
+                        (b)Sanaa Lathan
+                        (c)Naomi Campbell
+                        (d)Vanessa Williams
+                        """;
+
+
+                String q35 = """
+                        Jerome from the sitcom "Martin" is a playa from?
+                        (a)Detroit
+                        (b)Chicago
+                        (c)The Himalayas
+                        (d)Harlem
+                        """;
+
+                String q36 = """
+                        When did the Saints win the Superbowl?
+                        (a)2007
+                        (b)2008
+                        (c)2010
+                        (d)2009
+                        """;
+
+                String q37 = """
+                        In 'Just Wright', what team did Common play for?
+                        (a)New York Knicks
+                        (b)New Jersey Nets
+                        (c)Philadelphia 76ers
+                        (d)Boston Celtics
+                        """;
+
+                String q38 = """
+                        What group sung "Breakin My Heart"?
+                        (a)Mint Condition
+                        (bTony, Toni, Tone
+                        (c)Boyz II Men
+                        (d)New Edition
+                        """;
+
+                String q39 = """
+                        All fair in love and what?
+                        (a)Money
+                        (b)Family
+                        (c)Football
+                        (d)Basketball
+                        """;
+
+                String q40 = """
+                        According to Snoop Dogg, who is his famous uncle?
+                        (a)Charlie Wilson
+                        (b)Smokey Robinson
+                        (c)Muddy Waters
+                        (d)Bobby Womack
+                        """;
+
+                String q41 = """
+                        Finish the phrase: Beans, greens, potatoes, tomatoes...?
+                        (a)burritos
+                        (b)doritos
+                        (c)let's cook
+                        (d)you name it
+                        """;
+
+                String q42 = """
+                        What is the name of Pam's twin cousin on the sitcom 'Martin'?
+                        (a)Tammy
+                        (b)Pamela
+                        (c)Paula
+                        (d)Tamera
+                        """;
+
+                String q43 = """
+                        How old does a baby have to be for us to get their ears pierced?
+                        (a)6 months
+                        (b)16 years
+                        (c)Grown
+                        (d)Fresh out the womb
+                        """;
+
+                String q44 = """
+                        Who's nickname was "Dragon Breath" on House Party?
+                        (a)Chill
+                        (b)Bilal
+                        (c)Pee-Wee
+                        (d)Kid
+                        """;
+
+                String q45 = """
+                        What does Mary J. Blige not want in her dancery?
+                        (a)drama
+                        (b)gyrating
+                        (c)perculatin'
+                        (d)hateration
+                        """;
+
+                String q46 = """
+                        He ran off on the plug twice, but you might find him at the Ritz Carlton:?
+                        (a)Plies
+                        (b)Yo Gotti
+                        (c)Gucci Mane
+                        (d)Future
+                        """;
+
+                String q47 = """
+                        In 'Love Jones', his Brotha to the night and da Blues in Your Left Eye:\s?
+                        (a)Larenz Tate
+                        (b)Omar Epps
+                        (c)Isaiah Washington
+                        (d)Bill Bellamy
+                        """;
+
+                String q48 = """
+                        Who's poor, black, and maybe even ugly, but dear God they still here?
+                        (a)Nanny
+                        (b)Pookie
+                        (c)Reba
+                        (d)Celie
+                        """;
+
+                String q49 = """
+                        What did LL COOL J want his around the way girl to have?
+                        (a)Diamond earrings
+                        (b)Extensions in her hair
+                        (c)A Chanel bag
+                        (d)A big butt
+                        """;
+
+                String q50 = """
+                        What do you eat on your grits?
+                        (a)Cheese
+                        (b)Salt & Pepper
+                        (c)Sugar
+                        (d)Butter
+                        """;
+
+                String q51 = """
+                        Which movie did someone say, "Oh, now you're gonna shoot me in my pinkie toe?
+                        (a)Shaft
+                        (b)Harlem Nights
+                        (c)The Color Purple
+                        (d)Menace II Society
+                        """;
+
+                String q52 = """
+                        In what year were public schools desegregated by the US Supreme Court?
+                        (a)1954
+                        (b)1960
+                        (c)1973
+                        (d)1982
+                        """;
+
+                String q53 = """
+                        Which state was the home to "America's Black Wall Street" until 1921?
+                        (a)Oklahoma
+                        (b)Georgia
+                        (c)New York
+                        (d)North Carolina
+                        """;
+
+                String q54 = """
+                        What does Mystical first ask you to do after you shake ya ass?
+                        (a)Throw ya hands in the air
+                        (b)Show what you workin' with
+                        (c)Watch ya self
+                        (d)Get low
+                        """;
+                
                 //Adds the questions q1, q2...qn into the list query, with the Questions class as its type
                 query.add(new Questions(q1, "a"));
                 query.add(new Questions(q2, "d"));
                 query.add(new Questions(q3, "b"));
                 query.add(new Questions(q4, "d"));
                 query.add(new Questions(q5, "b"));
-                query.add(new Questions(q6, "majority rule"));
-                query.add(new Questions(q7, "majority rule"));
-                query.add(new Questions(q8, "majority rule"));
-                query.add(new Questions(q9, "majority rule"));
+                query.add(new Questions(q6, "c"));
+                query.add(new Questions(q7, "d"));
+                query.add(new Questions(q8, "d"));
+                query.add(new Questions(q9, "d"));
+                query.add(new Questions(q10, "d"));
+                query.add(new Questions(q11, "d"));
+                query.add(new Questions(q12, "c"));
+                query.add(new Questions(q13, "d"));
+                query.add(new Questions(q14, "b"));
+                query.add(new Questions(q15, "a"));
+                query.add(new Questions(q16, "b"));
+                query.add(new Questions(q17, "a"));
+                query.add(new Questions(q18, "d"));
+                query.add(new Questions(q19, "a"));
+                query.add(new Questions(q20, "b"));
+                query.add(new Questions(q21, "d"));
+                query.add(new Questions(q22, "a"));
+                query.add(new Questions(q23, "b"));
+                query.add(new Questions(q24, "a"));
+                query.add(new Questions(q25, "b"));
+                query.add(new Questions(q26, "b"));
+                query.add(new Questions(q27, "c"));
+                query.add(new Questions(q28, "a"));
+                query.add(new Questions(q29, "c"));
+                query.add(new Questions(q30, "b"));
+                query.add(new Questions(q31, "d"));
+                query.add(new Questions(q32, "d"));
+                query.add(new Questions(q33, "b"));
+                query.add(new Questions(q34, "d"));
+                query.add(new Questions(q35, "c"));
+                query.add(new Questions(q36, "c"));
+                query.add(new Questions(q37, "b"));
+                query.add(new Questions(q38, "a"));
+                query.add(new Questions(q39, "d"));
+                query.add(new Questions(q40, "a"));
+                query.add(new Questions(q41, "d"));
+                query.add(new Questions(q42, "a"));
+                query.add(new Questions(q43, "d"));
+                query.add(new Questions(q44, "b"));
+                query.add(new Questions(q45, "d"));
+                query.add(new Questions(q46, "a"));
+                query.add(new Questions(q47, "a"));
+                query.add(new Questions(q48, "d"));
+                query.add(new Questions(q49, "b"));
+                query.add(new Questions(q50, "a"));
+                query.add(new Questions(q51, "b"));
+                query.add(new Questions(q52, "a"));
+                query.add(new Questions(q53, "a"));
+                query.add(new Questions(q54, "c"));
+
             }
-            case 3 -> System.out.println(" Good Luck");
+            case 3 -> System.out.println("Start Blackcard Revoked Game\n");
+
             case 4 -> System.exit(0);
             default -> System.out.println("Invalid choice");
         }//end switch
 
         //Begins the game if the user entered yes
-        while(playGame.equals("yes") || playGame.equals("y") || playGame.equals("Yes")){
-
+        while(playGame.equals("yes") || playGame.equals("y") || playGame.equals("Yes"))
+        {
             System.out.println("Please enter the number of players playing the game. Number of players " +
                     "can only be within the range of 3 - 6 players per round. ");
             numPlayers = input.nextInt();
             input.nextLine();
 
             //Checks if the number of players is greater than 6
-            while(numPlayers < 3 || numPlayers > 6){
+            if(numPlayers < 3 || numPlayers > 6){
 
                 System.out.println("Please enter a number that is in the range of 3 - 6");
                 System.out.println("You can not have less than 3 players or more than 6 players");
@@ -246,17 +659,17 @@ public class BlackCardRevoked
         System.out.println("How many questions do you want to add?");
         numQuestions = key.nextInt();
 
-        String q;
+        String question;
         String choice1, choice2, choice3, choice4;
         String answer;
-        Questions[]questions = new Questions[numQuestions];
+        Questions[] questions = new Questions[numQuestions];
 
         for(int count = 0; count < numQuestions; count++) {
             System.out.println("Please enter question number " + (count + 1) + ".");
 
             //Added nextLine statement to get line before input. Then set question string equal to the question
             key.nextLine();
-            q = key.nextLine();
+            question = key.nextLine();
 
             System.out.println("Please enter your first choice\n(a)");
             choice1 = key.nextLine();
